@@ -54,8 +54,8 @@ public class Aplicacion extends HttpServlet {
 
     @Override
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Salida POST");
-        response.getWriter().println("Salida POST");
+        System.out.println("Prueba Prueba");
+        response.getWriter().println("Esto es una prueba");
         response.getWriter().flush();
 
     }
